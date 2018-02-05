@@ -1,0 +1,25 @@
+{
+  "name": "head-first-design-patterns-js",
+  "version": "1.0.0",
+  "description": "Head First Design Patterns - Javascript",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel ./src --experimental --source-maps-inline -d ./dist",
+    "execute": "node dist/main.js",
+    "start": "yarn run build && yarn run execute"
+  },
+  "author": "Ruxandra Fediuc",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-env": "^1.1.8"
+  }
+}
